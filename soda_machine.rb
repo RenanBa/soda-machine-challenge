@@ -7,12 +7,21 @@ class SodaMachine
   end
 
   def current_inventory_count
+    count = @sodas.length
   end
 
   def find_soda(soda_brand)
-  end
+    soda = []
+    @sodas.each do |k,v|
+      if v == soda_brand
+        soda.push(v)
+      end
+    end
+     p soda[0]
+  endgit
 
   def sell(soda_brand)
   end
 
 end
+

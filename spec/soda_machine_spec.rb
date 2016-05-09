@@ -13,7 +13,7 @@ describe SodaMachine do
       expect(soda_machine.current_inventory_count).to eq(4)
     end
   end
-
+#===========================================
   describe "#find_soda", { find_soda: true } do
     context "when the soda is in the machine" do
       it "returns the soda the user requested" do
